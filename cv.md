@@ -43,3 +43,9 @@ HTML - In progress
 CSS - In progress
 
 JavaScript - In progress
+
+## Code ##
+
+        function multiply (a, b) {
+        return a * b
+        }
