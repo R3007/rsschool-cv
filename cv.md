@@ -21,3 +21,17 @@ Director. Private enterprise "Avtosnabpostavka".
 #### 2004-2009 ####
 Master mechanic. Minsk Automobile Plant.
 
+
+## Language skills ##
+Russian - Native
+
+English - Pre-Intermediate
+
+
+## SkillS ##
+HTML - In progress
+
+CSS - In progress
+
+JavaScript - In progress
+
