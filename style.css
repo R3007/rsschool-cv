@@ -5,10 +5,18 @@ body {
     background-image: url(assets/img/Background.jpg);
 }
 .myphoto {
-    margin: 5px 5px 5px 50px;
-    box-shadow: 0 0 10px 5px;
+    margin: 5px 5px 5px 150px;
+    box-shadow: 0 0 15px 5px;
     border-radius: 140px;
     width: 100%;
     max-width: 400px;
     height: auto;
+}
+.spanh {
+    margin: 0 15px;
+    font-size: 20px;
+}
+.header {
+    text-align: center;
+    
 }
