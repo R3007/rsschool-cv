@@ -6,9 +6,9 @@ html {
 }
 body {
     background-image: url(assets/img/Background.jpg);
-    font-family: Lucida Console, monospace;
-    font-size: 18px;
-    font-weight: 400;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    font-weight: 500;
     line-height: 1.2;
     display: flex;
     flex-direction: column;
@@ -24,7 +24,6 @@ main {
     font-size: 22px;
     font-weight: 600;
     text-align: center;
-    margin-bottom: 40px;
 }
 .nav-link {
     padding: 0 20px;
@@ -49,6 +48,7 @@ main {
     margin-left: 30%;
     margin-top: 10px;
     align-items: center;
+    align-content: center;
     justify-content: center;
     line-height: 1;
 }
@@ -78,6 +78,7 @@ a:hover {
 } 
 .section {
     width: 50%;
+    border-top: 2px solid #5c1347;
 }
 @media (max-width: 768px) {
     .section {
@@ -107,4 +108,41 @@ h3 {
     line-height: 0.5;
     font-size: 17px;
     font-weight: 600;
+}
+.section#summary, #education {
+    margin-top: 20px;
+}
+.ul-footer {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px 0 0 0;
+}
+.logo-school {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+}
+.lifooter {
+    margin: 0 200px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.span-footer {
+    margin: 0 10px;
+}
+#div-footer.container {   
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+footer {
+    border-top: 3px solid #5c1347;
 }
