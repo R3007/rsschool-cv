@@ -50,6 +50,7 @@ main {
     margin-top: 10px;
     align-items: center;
     justify-content: center;
+    line-height: 1;
 }
 .container {
     max-width: 1440px;
@@ -89,6 +90,7 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 5px;
     color: black;
+    line-height: 0.3;
 }
 h1 {
     font-size: 35px;
@@ -98,5 +100,11 @@ h1 {
     color: black;
 }
 .header {
-    background-color: rgb(183,255,208,0.3);
+    border-bottom: 3px solid #5c1347;
+    margin-bottom: 15px;
+}
+h3 {
+    line-height: 0.5;
+    font-size: 17px;
+    font-weight: 600;
 }
