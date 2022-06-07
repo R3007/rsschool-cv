@@ -1,9 +1,11 @@
 html {
     scroll-behavior: smooth; 
 }
+
 * {
     box-sizing: border-box;
 }
+
 body {
     background-image: url(assets/img/Background.jpg);
     font-family: 'Merriweather', serif;
@@ -14,10 +16,12 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+
 main {
     width: 90%;
     margin: 0 auto;
 }
+
 .nav-list {
     list-style: none;
     margin: 0 20px;
@@ -25,11 +29,13 @@ main {
     font-weight: 600;
     text-align: center;
 }
+
 .nav-link {
     padding: 0 20px;
     line-height: 50px;
     transition: .3s;
 }
+
 .myphoto {
     margin: 0px 20px 5px 0;
     box-shadow: 0 0 15px 5px;
@@ -39,52 +45,63 @@ main {
     height: auto;
     float: left;
 }
+
 .span {
     margin: 0 15px;
     font-size: 25px;
     font-weight: 600;
 }
+
 .contacts {
-    margin-left: 30%;
+    margin-left: 32%;
     margin-top: 10px;
     align-items: center;
     align-content: center;
     justify-content: center;
     line-height: 1;
 }
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
 }
+
 .nav-item a {
     color: black;
     text-decoration: none;  
     transition: color 0.5s;
 }
+
 .nav-item a:hover {
     color: #135c13;
 }
+
 a {
     color: black;
     text-decoration: none;  
     transition: color 0.3s;
 }
+
 a:hover {
     color: #5c1347;
 }
+
 .main-container {
     display: flex;
     flex-wrap: wrap;
 } 
+
 .section {
     width: 50%;
     border-top: 2px solid #5c1347;
 }
+
 @media (max-width: 768px) {
     .section {
       width: 100%;
     }
 }
+
 h2 {
     font-size: 20px;
     font-weight: 600;
@@ -93,6 +110,7 @@ h2 {
     color: black;
     line-height: 0.3;
 }
+
 h1 {
     font-size: 35px;
     font-weight: 600;
@@ -100,37 +118,45 @@ h1 {
     letter-spacing: 5px;
     color: black;
 }
+
 .header {
     border-bottom: 3px solid #5c1347;
     margin-bottom: 15px;
 }
+
 h3 {
     line-height: 0.5;
     font-size: 17px;
     font-weight: 600;
 }
+
 .section#summary, #education {
     margin-top: 20px;
 }
+
 .ul-footer {
     display: flex;
     align-items: center;
     list-style: none;
     padding: 10px 0 0 0;
 }
+
 .logo-school {
     width: 100%;
     max-width: 100px;
     height: auto;
 }
+
 .lifooter {
     margin: 0 200px;
     font-weight: 600;
     font-size: 20px;
 }
+
 .span-footer {
     margin: 0 10px;
 }
+
 #div-footer.container {   
     width: 100%;
     height: 100%;
@@ -143,6 +169,17 @@ h3 {
     justify-content: center;
     overflow: auto;
 }
+
 footer {
     border-top: 3px solid #5c1347;
+}
+
+.a-footer {
+    color: black;
+    text-decoration: none;  
+    transition: color 0.5s;
+}
+
+.a-footer:hover {
+    color: #135c13;
 }
