@@ -1,3 +1,184 @@
-p {
-    color: brown;
+html {
+    scroll-behavior: smooth; 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(assets/img/Background.jpg);
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0 20px;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+
+.myphoto {
+    margin: 0px 30px 0px 0;
+    box-shadow: 0 0 15px 5px;
+    border-radius: 140px;
+    max-width: 300px;
+    height: auto;
+}
+
+.ul-contacts {
+    list-style: none;
+    line-height: 1.4;
+}
+
+.contacts {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-item a {
+    color: black;
+    text-decoration: none;  
+    transition: color 0.5s;
+}
+
+.nav-item a:hover {
+    color: #135c13;
+}
+
+a {
+    color: black;
+    text-decoration: none;  
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #5c1347;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.section {
+    width: 50%;
+    border-top: 2px solid #5c1347;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: black;
+    line-height: 0.3;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: black;
+}
+
+.header {
+    border-bottom: 3px solid #5c1347;
+    margin-bottom: 15px;
+}
+
+h3 {
+    line-height: 0.5;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.section#summary, #education {
+    margin-top: 20px;
+}
+
+.code {
+    background-color: rgb(147,157,160,0.5);
+}
+
+.ul-footer {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+
+.logo-school {
+    width: 80px;
+    height: auto;
+}
+
+.lifooter {
+    margin: 0 150px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+footer {
+    border-top: 3px solid #5c1347;
+}
+
+.a-footer {
+    color: black;
+    text-decoration: none;  
+    transition: color 0.5s;
+}
+
+.a-footer:hover {
+    color: #135c13;
+}
+
+#lifooter1 {
+    margin-right: 2px;
+}
+
+#lifooter2 {
+    margin-left: 2px;
+    font-size: 25px;
 }
