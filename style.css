@@ -48,11 +48,11 @@ main {
     float: left;
 }
 
-.span {
-    margin: 0 15px;
-    font-size: 25px;
-    font-weight: 600;
+.ul-contacts {
+    list-style: none;
+    line-height: 1.4;
 }
+
 
 .contacts {
     margin-left: 32%;
