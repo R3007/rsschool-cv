@@ -185,3 +185,7 @@ footer {
 .a-footer:hover {
     color: #135c13;
 }
+
+.code {
+    background-color: rgb(147,157,160,0.5);
+}
