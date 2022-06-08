@@ -39,13 +39,11 @@ main {
 }
 
 .myphoto {
-    margin: 0px 20px 5px 0;
+    margin: 0px 30px 0px 0;
     box-shadow: 0 0 15px 5px;
     border-radius: 140px;
-    width: 100%;
     max-width: 300px;
     height: auto;
-    float: left;
 }
 
 .ul-contacts {
@@ -53,9 +51,8 @@ main {
     line-height: 1.4;
 }
 
-
 .contacts {
-    margin-left: 32%;
+    display: flex;
     margin-top: 10px;
     align-items: center;
     align-content: center;
@@ -96,6 +93,10 @@ a:hover {
 .section {
     width: 50%;
     border-top: 2px solid #5c1347;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
 
 @media (max-width: 768px) {
